@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Proyecto_Sistema_Dental_JavierElgueta-IngInfo", "Proyecto_Sistema_Dental_JavierElgueta-IngInfo\Proyecto_Sistema_Dental_JavierElgueta-IngInfo.vbproj", "{1B12C329-CBFF-45AB-91D1-325D668ADF2D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://drdental.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Proyecto_Sistema_Dental_JavierElgueta-IngInfo\\Proyecto_Sistema_Dental_JavierElgueta-IngInfo.vbproj
+		SccProjectName1 = Proyecto_Sistema_Dental_JavierElgueta-IngInfo
+		SccLocalPath1 = Proyecto_Sistema_Dental_JavierElgueta-IngInfo
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B12C329-CBFF-45AB-91D1-325D668ADF2D}.Debug|x86.ActiveCfg = Debug|x86
+		{1B12C329-CBFF-45AB-91D1-325D668ADF2D}.Debug|x86.Build.0 = Debug|x86
+		{1B12C329-CBFF-45AB-91D1-325D668ADF2D}.Release|x86.ActiveCfg = Release|x86
+		{1B12C329-CBFF-45AB-91D1-325D668ADF2D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
