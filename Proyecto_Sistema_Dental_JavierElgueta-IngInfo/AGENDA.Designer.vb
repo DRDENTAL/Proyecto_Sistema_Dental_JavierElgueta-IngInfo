@@ -63,8 +63,9 @@ Partial Class AGENDA
         Me.Label1.Font = New System.Drawing.Font("Arial Black", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(859, 107)
+        Me.Label1.Size = New System.Drawing.Size(1145, 132)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Agendar Cita"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -79,9 +80,10 @@ Partial Class AGENDA
         Me.bGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.bGuardar.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bGuardar.ForeColor = System.Drawing.Color.Black
-        Me.bGuardar.Location = New System.Drawing.Point(541, 410)
+        Me.bGuardar.Location = New System.Drawing.Point(721, 416)
+        Me.bGuardar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bGuardar.Name = "bGuardar"
-        Me.bGuardar.Size = New System.Drawing.Size(173, 34)
+        Me.bGuardar.Size = New System.Drawing.Size(364, 131)
         Me.bGuardar.TabIndex = 1
         Me.bGuardar.Text = "GUARDAR"
         Me.bGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -108,13 +110,14 @@ Partial Class AGENDA
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
-        Me.DataGridView1.Location = New System.Drawing.Point(388, 189)
+        Me.DataGridView1.Location = New System.Drawing.Point(517, 233)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowTemplate.ReadOnly = True
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(459, 136)
+        Me.DataGridView1.Size = New System.Drawing.Size(612, 167)
         Me.DataGridView1.TabIndex = 2
         '
         'txtrut
@@ -122,9 +125,10 @@ Partial Class AGENDA
         Me.txtrut.BackColor = System.Drawing.Color.White
         Me.txtrut.Font = New System.Drawing.Font("Bernard MT Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtrut.ForeColor = System.Drawing.Color.Black
-        Me.txtrut.Location = New System.Drawing.Point(115, 118)
+        Me.txtrut.Location = New System.Drawing.Point(153, 145)
+        Me.txtrut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtrut.Name = "txtrut"
-        Me.txtrut.Size = New System.Drawing.Size(253, 36)
+        Me.txtrut.Size = New System.Drawing.Size(336, 43)
         Me.txtrut.TabIndex = 3
         '
         'lrut
@@ -132,9 +136,10 @@ Partial Class AGENDA
         Me.lrut.AutoSize = True
         Me.lrut.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lrut.ForeColor = System.Drawing.Color.Black
-        Me.lrut.Location = New System.Drawing.Point(16, 125)
+        Me.lrut.Location = New System.Drawing.Point(21, 154)
+        Me.lrut.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lrut.Name = "lrut"
-        Me.lrut.Size = New System.Drawing.Size(41, 24)
+        Me.lrut.Size = New System.Drawing.Size(52, 29)
         Me.lrut.TabIndex = 2
         Me.lrut.Text = "Rut"
         '
@@ -151,9 +156,10 @@ Partial Class AGENDA
         Me.bmañana.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.bmañana.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bmañana.ForeColor = System.Drawing.Color.Black
-        Me.bmañana.Location = New System.Drawing.Point(541, 146)
+        Me.bmañana.Location = New System.Drawing.Point(721, 180)
+        Me.bmañana.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bmañana.Name = "bmañana"
-        Me.bmañana.Size = New System.Drawing.Size(150, 38)
+        Me.bmañana.Size = New System.Drawing.Size(200, 47)
         Me.bmañana.TabIndex = 9
         Me.bmañana.Text = "Futuras"
         Me.bmañana.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -174,9 +180,10 @@ Partial Class AGENDA
         Me.bBuscar.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bBuscar.ForeColor = System.Drawing.Color.Black
         Me.bBuscar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.bBuscar.Location = New System.Drawing.Point(126, 160)
+        Me.bBuscar.Location = New System.Drawing.Point(168, 197)
+        Me.bBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bBuscar.Name = "bBuscar"
-        Me.bBuscar.Size = New System.Drawing.Size(242, 59)
+        Me.bBuscar.Size = New System.Drawing.Size(323, 73)
         Me.bBuscar.TabIndex = 11
         Me.bBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.bBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -187,9 +194,10 @@ Partial Class AGENDA
         Me.m2.AutoSize = True
         Me.m2.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.m2.ForeColor = System.Drawing.Color.Red
-        Me.m2.Location = New System.Drawing.Point(29, 275)
+        Me.m2.Location = New System.Drawing.Point(39, 338)
+        Me.m2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.m2.Name = "m2"
-        Me.m2.Size = New System.Drawing.Size(82, 18)
+        Me.m2.Size = New System.Drawing.Size(100, 24)
         Me.m2.TabIndex = 68
         Me.m2.Text = "Obligatorio"
         Me.m2.Visible = False
@@ -199,9 +207,10 @@ Partial Class AGENDA
         Me.m1.AutoSize = True
         Me.m1.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.m1.ForeColor = System.Drawing.Color.Red
-        Me.m1.Location = New System.Drawing.Point(27, 146)
+        Me.m1.Location = New System.Drawing.Point(36, 180)
+        Me.m1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.m1.Name = "m1"
-        Me.m1.Size = New System.Drawing.Size(82, 18)
+        Me.m1.Size = New System.Drawing.Size(100, 24)
         Me.m1.TabIndex = 67
         Me.m1.Text = "Obligatorio"
         Me.m1.Visible = False
@@ -216,9 +225,10 @@ Partial Class AGENDA
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(697, 145)
+        Me.Button1.Location = New System.Drawing.Point(929, 178)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(150, 38)
+        Me.Button1.Size = New System.Drawing.Size(200, 47)
         Me.Button1.TabIndex = 71
         Me.Button1.Text = "Todas"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -234,9 +244,10 @@ Partial Class AGENDA
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(385, 146)
+        Me.Button2.Location = New System.Drawing.Point(513, 180)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(150, 37)
+        Me.Button2.Size = New System.Drawing.Size(200, 46)
         Me.Button2.TabIndex = 72
         Me.Button2.Text = "De Hoy"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -252,9 +263,10 @@ Partial Class AGENDA
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button4.Font = New System.Drawing.Font("Modern No. 20", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Location = New System.Drawing.Point(541, 450)
+        Me.Button4.Location = New System.Drawing.Point(721, 554)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(173, 34)
+        Me.Button4.Size = New System.Drawing.Size(231, 42)
         Me.Button4.TabIndex = 76
         Me.Button4.Text = "QUITAR"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -266,9 +278,10 @@ Partial Class AGENDA
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(16, 251)
+        Me.Label5.Location = New System.Drawing.Point(21, 309)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(95, 24)
+        Me.Label5.Size = New System.Drawing.Size(120, 29)
         Me.Label5.TabIndex = 77
         Me.Label5.Text = "Nombres"
         '
@@ -278,9 +291,10 @@ Partial Class AGENDA
         Me.txtNombres.Enabled = False
         Me.txtNombres.Font = New System.Drawing.Font("Bernard MT Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNombres.ForeColor = System.Drawing.Color.Black
-        Me.txtNombres.Location = New System.Drawing.Point(115, 244)
+        Me.txtNombres.Location = New System.Drawing.Point(153, 300)
+        Me.txtNombres.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNombres.Name = "txtNombres"
-        Me.txtNombres.Size = New System.Drawing.Size(264, 36)
+        Me.txtNombres.Size = New System.Drawing.Size(351, 43)
         Me.txtNombres.TabIndex = 78
         '
         'txtApellidos
@@ -289,9 +303,10 @@ Partial Class AGENDA
         Me.txtApellidos.Enabled = False
         Me.txtApellidos.Font = New System.Drawing.Font("Bernard MT Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtApellidos.ForeColor = System.Drawing.Color.Black
-        Me.txtApellidos.Location = New System.Drawing.Point(115, 290)
+        Me.txtApellidos.Location = New System.Drawing.Point(153, 357)
+        Me.txtApellidos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtApellidos.Name = "txtApellidos"
-        Me.txtApellidos.Size = New System.Drawing.Size(264, 36)
+        Me.txtApellidos.Size = New System.Drawing.Size(351, 43)
         Me.txtApellidos.TabIndex = 81
         '
         'Label2
@@ -300,9 +315,10 @@ Partial Class AGENDA
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(14, 297)
+        Me.Label2.Location = New System.Drawing.Point(19, 366)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 24)
+        Me.Label2.Size = New System.Drawing.Size(123, 29)
         Me.Label2.TabIndex = 80
         Me.Label2.Text = "Apellidos"
         '
@@ -311,34 +327,38 @@ Partial Class AGENDA
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Berlin Sans FB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(260, 341)
+        Me.Label4.Location = New System.Drawing.Point(347, 420)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(25, 23)
+        Me.Label4.Size = New System.Drawing.Size(33, 30)
         Me.Label4.TabIndex = 94
         Me.Label4.Text = " : "
         '
         'NumericUpDown2
         '
         Me.NumericUpDown2.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.NumericUpDown2.Location = New System.Drawing.Point(285, 341)
+        Me.NumericUpDown2.Location = New System.Drawing.Point(380, 420)
+        Me.NumericUpDown2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.NumericUpDown2.Maximum = New Decimal(New Integer() {60, 0, 0, 0})
         Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.Size = New System.Drawing.Size(55, 20)
+        Me.NumericUpDown2.Size = New System.Drawing.Size(73, 22)
         Me.NumericUpDown2.TabIndex = 93
         '
         'NumericUpDown1
         '
         Me.NumericUpDown1.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.NumericUpDown1.Location = New System.Drawing.Point(207, 341)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(276, 420)
+        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.NumericUpDown1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(55, 20)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(73, 22)
         Me.NumericUpDown1.TabIndex = 92
         '
         'MonthCalendar1
         '
         Me.MonthCalendar1.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.MonthCalendar1.Location = New System.Drawing.Point(148, 410)
+        Me.MonthCalendar1.Location = New System.Drawing.Point(197, 505)
+        Me.MonthCalendar1.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 91
         '
@@ -347,9 +367,10 @@ Partial Class AGENDA
         Me.m3.AutoSize = True
         Me.m3.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.m3.ForeColor = System.Drawing.Color.Red
-        Me.m3.Location = New System.Drawing.Point(27, 321)
+        Me.m3.Location = New System.Drawing.Point(36, 395)
+        Me.m3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.m3.Name = "m3"
-        Me.m3.Size = New System.Drawing.Size(82, 18)
+        Me.m3.Size = New System.Drawing.Size(100, 24)
         Me.m3.TabIndex = 90
         Me.m3.Text = "Obligatorio"
         Me.m3.Visible = False
@@ -359,9 +380,10 @@ Partial Class AGENDA
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Berlin Sans FB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(14, 378)
+        Me.Label6.Location = New System.Drawing.Point(19, 465)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(184, 23)
+        Me.Label6.Size = New System.Drawing.Size(239, 30)
         Me.Label6.TabIndex = 89
         Me.Label6.Text = "Seleccione la Fecha :"
         '
@@ -370,9 +392,10 @@ Partial Class AGENDA
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Berlin Sans FB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(136, 338)
+        Me.Label7.Location = New System.Drawing.Point(181, 416)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(65, 23)
+        Me.Label7.Size = New System.Drawing.Size(83, 30)
         Me.Label7.TabIndex = 87
         Me.Label7.Text = "Hora :"
         '
@@ -381,19 +404,20 @@ Partial Class AGENDA
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Berlin Sans FB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(384, 120)
+        Me.Label8.Location = New System.Drawing.Point(512, 148)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(96, 23)
+        Me.Label8.Size = New System.Drawing.Size(125, 30)
         Me.Label8.TabIndex = 95
         Me.Label8.Text = "Ver Citas :"
         '
         'AGENDA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(859, 728)
+        Me.ClientSize = New System.Drawing.Size(1145, 896)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label4)
@@ -422,6 +446,7 @@ Partial Class AGENDA
         Me.Cursor = System.Windows.Forms.Cursors.No
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "AGENDA"
