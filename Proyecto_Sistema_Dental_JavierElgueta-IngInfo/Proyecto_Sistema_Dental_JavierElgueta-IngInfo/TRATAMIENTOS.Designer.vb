@@ -352,7 +352,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Button2.Location = New System.Drawing.Point(370, 130)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 37)
+        Me.Button2.Size = New System.Drawing.Size(114, 37)
         Me.Button2.TabIndex = 21
         Me.Button2.Text = "Buscar"
         Me.Button2.UseVisualStyleBackColor = True
