@@ -58,6 +58,11 @@ Partial Class TRATAMIENTOS
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7Izq = New System.Windows.Forms.Label()
+        Me.Label7Der = New System.Windows.Forms.Label()
+        Me.Label7Inf = New System.Windows.Forms.Label()
+        Me.Label7Sup = New System.Windows.Forms.Label()
+        Me.Label7Cen = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.Lntrat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -126,7 +131,7 @@ Partial Class TRATAMIENTOS
         Me.DArr.AutoSize = True
         Me.DArr.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DArr.ForeColor = System.Drawing.Color.Lime
-        Me.DArr.Location = New System.Drawing.Point(760, 147)
+        Me.DArr.Location = New System.Drawing.Point(565, 227)
         Me.DArr.Name = "DArr"
         Me.DArr.Size = New System.Drawing.Size(64, 56)
         Me.DArr.TabIndex = 1
@@ -138,7 +143,7 @@ Partial Class TRATAMIENTOS
         Me.Daba.AutoSize = True
         Me.Daba.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Daba.ForeColor = System.Drawing.Color.Lime
-        Me.Daba.Location = New System.Drawing.Point(760, 372)
+        Me.Daba.Location = New System.Drawing.Point(565, 419)
         Me.Daba.Name = "Daba"
         Me.Daba.Size = New System.Drawing.Size(64, 56)
         Me.Daba.TabIndex = 2
@@ -150,7 +155,7 @@ Partial Class TRATAMIENTOS
         Me.Dder.AutoSize = True
         Me.Dder.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Dder.ForeColor = System.Drawing.Color.Lime
-        Me.Dder.Location = New System.Drawing.Point(862, 256)
+        Me.Dder.Location = New System.Drawing.Point(630, 325)
         Me.Dder.Name = "Dder"
         Me.Dder.Size = New System.Drawing.Size(64, 56)
         Me.Dder.TabIndex = 3
@@ -162,7 +167,7 @@ Partial Class TRATAMIENTOS
         Me.Dizq.AutoSize = True
         Me.Dizq.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Dizq.ForeColor = System.Drawing.Color.Lime
-        Me.Dizq.Location = New System.Drawing.Point(652, 256)
+        Me.Dizq.Location = New System.Drawing.Point(502, 325)
         Me.Dizq.Name = "Dizq"
         Me.Dizq.Size = New System.Drawing.Size(64, 56)
         Me.Dizq.TabIndex = 4
@@ -174,7 +179,7 @@ Partial Class TRATAMIENTOS
         Me.DCen.AutoSize = True
         Me.DCen.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DCen.ForeColor = System.Drawing.Color.Lime
-        Me.DCen.Location = New System.Drawing.Point(761, 256)
+        Me.DCen.Location = New System.Drawing.Point(564, 325)
         Me.DCen.Name = "DCen"
         Me.DCen.Size = New System.Drawing.Size(64, 56)
         Me.DCen.TabIndex = 5
@@ -193,46 +198,46 @@ Partial Class TRATAMIENTOS
         '
         'OvalShape6
         '
-        Me.OvalShape6.Location = New System.Drawing.Point(737, 231)
+        Me.OvalShape6.Location = New System.Drawing.Point(565, 304)
         Me.OvalShape6.Name = "OvalShape6"
-        Me.OvalShape6.Size = New System.Drawing.Size(106, 111)
+        Me.OvalShape6.Size = New System.Drawing.Size(60, 97)
         '
         'OvalShape5
         '
-        Me.OvalShape5.Location = New System.Drawing.Point(733, 341)
+        Me.OvalShape5.Location = New System.Drawing.Point(566, 402)
         Me.OvalShape5.Name = "OvalShape5"
-        Me.OvalShape5.Size = New System.Drawing.Size(113, 116)
+        Me.OvalShape5.Size = New System.Drawing.Size(57, 92)
         '
         'OvalShape4
         '
-        Me.OvalShape4.Location = New System.Drawing.Point(732, 121)
+        Me.OvalShape4.Location = New System.Drawing.Point(569, 213)
         Me.OvalShape4.Name = "OvalShape4"
-        Me.OvalShape4.Size = New System.Drawing.Size(114, 111)
+        Me.OvalShape4.Size = New System.Drawing.Size(55, 90)
         '
         'OvalShape3
         '
-        Me.OvalShape3.Location = New System.Drawing.Point(844, 199)
+        Me.OvalShape3.Location = New System.Drawing.Point(630, 306)
         Me.OvalShape3.Name = "OvalShape3"
-        Me.OvalShape3.Size = New System.Drawing.Size(101, 176)
+        Me.OvalShape3.Size = New System.Drawing.Size(58, 97)
         '
         'OvalShape2
         '
-        Me.OvalShape2.Location = New System.Drawing.Point(627, 199)
+        Me.OvalShape2.Location = New System.Drawing.Point(502, 309)
         Me.OvalShape2.Name = "OvalShape2"
-        Me.OvalShape2.Size = New System.Drawing.Size(109, 175)
+        Me.OvalShape2.Size = New System.Drawing.Size(61, 92)
         '
         'OvalShape1
         '
         Me.OvalShape1.BackColor = System.Drawing.Color.White
-        Me.OvalShape1.Location = New System.Drawing.Point(618, 110)
+        Me.OvalShape1.Location = New System.Drawing.Point(499, 210)
         Me.OvalShape1.Name = "OvalShape1"
-        Me.OvalShape1.Size = New System.Drawing.Size(336, 358)
+        Me.OvalShape1.Size = New System.Drawing.Size(196, 290)
         '
         'Rizq
         '
         Me.Rizq.AutoSize = True
         Me.Rizq.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rizq.Location = New System.Drawing.Point(676, 279)
+        Me.Rizq.Location = New System.Drawing.Point(525, 348)
         Me.Rizq.Name = "Rizq"
         Me.Rizq.Size = New System.Drawing.Size(14, 13)
         Me.Rizq.TabIndex = 8
@@ -243,7 +248,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Rarr.AutoSize = True
         Me.Rarr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rarr.Location = New System.Drawing.Point(784, 169)
+        Me.Rarr.Location = New System.Drawing.Point(588, 251)
         Me.Rarr.Name = "Rarr"
         Me.Rarr.Size = New System.Drawing.Size(14, 13)
         Me.Rarr.TabIndex = 9
@@ -254,7 +259,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Rcen.AutoSize = True
         Me.Rcen.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rcen.Location = New System.Drawing.Point(784, 279)
+        Me.Rcen.Location = New System.Drawing.Point(587, 348)
         Me.Rcen.Name = "Rcen"
         Me.Rcen.Size = New System.Drawing.Size(14, 13)
         Me.Rcen.TabIndex = 10
@@ -265,7 +270,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Rder.AutoSize = True
         Me.Rder.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rder.Location = New System.Drawing.Point(886, 279)
+        Me.Rder.Location = New System.Drawing.Point(654, 348)
         Me.Rder.Name = "Rder"
         Me.Rder.Size = New System.Drawing.Size(14, 13)
         Me.Rder.TabIndex = 11
@@ -276,7 +281,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Raba.AutoSize = True
         Me.Raba.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Raba.Location = New System.Drawing.Point(784, 395)
+        Me.Raba.Location = New System.Drawing.Point(588, 443)
         Me.Raba.Name = "Raba"
         Me.Raba.Size = New System.Drawing.Size(14, 13)
         Me.Raba.TabIndex = 12
@@ -306,7 +311,7 @@ Partial Class TRATAMIENTOS
         '
         Me.Lndie.AutoSize = True
         Me.Lndie.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lndie.Location = New System.Drawing.Point(120, 260)
+        Me.Lndie.Location = New System.Drawing.Point(502, 130)
         Me.Lndie.Name = "Lndie"
         Me.Lndie.Size = New System.Drawing.Size(157, 30)
         Me.Lndie.TabIndex = 16
@@ -316,7 +321,7 @@ Partial Class TRATAMIENTOS
         '
         Me.NumericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NumericUpDown2.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown2.Location = New System.Drawing.Point(124, 293)
+        Me.NumericUpDown2.Location = New System.Drawing.Point(506, 163)
         Me.NumericUpDown2.Name = "NumericUpDown2"
         Me.NumericUpDown2.Size = New System.Drawing.Size(153, 37)
         Me.NumericUpDown2.TabIndex = 15
@@ -405,6 +410,51 @@ Partial Class TRATAMIENTOS
         Me.Label6.TabIndex = 26
         Me.Label6.Text = "Historial"
         '
+        'Label7Izq
+        '
+        Me.Label7Izq.AutoSize = True
+        Me.Label7Izq.Location = New System.Drawing.Point(520, 376)
+        Me.Label7Izq.Name = "Label7Izq"
+        Me.Label7Izq.Size = New System.Drawing.Size(24, 13)
+        Me.Label7Izq.TabIndex = 27
+        Me.Label7Izq.Text = "Izq."
+        '
+        'Label7Der
+        '
+        Me.Label7Der.AutoSize = True
+        Me.Label7Der.Location = New System.Drawing.Point(648, 376)
+        Me.Label7Der.Name = "Label7Der"
+        Me.Label7Der.Size = New System.Drawing.Size(27, 13)
+        Me.Label7Der.TabIndex = 28
+        Me.Label7Der.Text = "Der."
+        '
+        'Label7Inf
+        '
+        Me.Label7Inf.AutoSize = True
+        Me.Label7Inf.Location = New System.Drawing.Point(584, 473)
+        Me.Label7Inf.Name = "Label7Inf"
+        Me.Label7Inf.Size = New System.Drawing.Size(22, 13)
+        Me.Label7Inf.TabIndex = 29
+        Me.Label7Inf.Text = "Inf."
+        '
+        'Label7Sup
+        '
+        Me.Label7Sup.AutoSize = True
+        Me.Label7Sup.Location = New System.Drawing.Point(582, 275)
+        Me.Label7Sup.Name = "Label7Sup"
+        Me.Label7Sup.Size = New System.Drawing.Size(29, 13)
+        Me.Label7Sup.TabIndex = 30
+        Me.Label7Sup.Text = "Sup."
+        '
+        'Label7Cen
+        '
+        Me.Label7Cen.AutoSize = True
+        Me.Label7Cen.Location = New System.Drawing.Point(581, 376)
+        Me.Label7Cen.Name = "Label7Cen"
+        Me.Label7Cen.Size = New System.Drawing.Size(29, 13)
+        Me.Label7Cen.TabIndex = 31
+        Me.Label7Cen.Text = "Cen."
+        '
         'TRATAMIENTOS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -412,6 +462,11 @@ Partial Class TRATAMIENTOS
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(1059, 673)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label7Cen)
+        Me.Controls.Add(Me.Label7Sup)
+        Me.Controls.Add(Me.Label7Inf)
+        Me.Controls.Add(Me.Label7Der)
+        Me.Controls.Add(Me.Label7Izq)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ComboBox1)
@@ -490,4 +545,9 @@ Partial Class TRATAMIENTOS
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7Izq As System.Windows.Forms.Label
+    Friend WithEvents Label7Der As System.Windows.Forms.Label
+    Friend WithEvents Label7Inf As System.Windows.Forms.Label
+    Friend WithEvents Label7Sup As System.Windows.Forms.Label
+    Friend WithEvents Label7Cen As System.Windows.Forms.Label
 End Class
