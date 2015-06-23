@@ -323,7 +323,7 @@ Partial Class TRATAMIENTOS
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(29, 325)
+        Me.Button1.Location = New System.Drawing.Point(126, 320)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(257, 56)
         Me.Button1.TabIndex = 20
@@ -367,14 +367,14 @@ Partial Class TRATAMIENTOS
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(29, 445)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(675, 216)
+        Me.DataGridView1.Size = New System.Drawing.Size(634, 216)
         Me.DataGridView1.TabIndex = 25
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(246, 398)
+        Me.Label6.Location = New System.Drawing.Point(292, 398)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(100, 30)
         Me.Label6.TabIndex = 26
